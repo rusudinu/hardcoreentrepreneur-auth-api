@@ -41,16 +41,21 @@ If you need further assistance in parsing an Object from an API, please check [t
 
 - Register a new user:
     * Send a POST request to https://he.codingshadows.com/api/register, with the body of the request being a RequestedUser object, the API will return a User object
+    * If you register successfully, you will have something like this:
 ![Register Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_successful.png?raw=true)
+    * If the user already exists, you will have something like this:
 ![Register User Already Exists](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_already_exists.png?raw=true)
 
 - Authenticate a user:
     * Send a GET request to https://he.codingshadows.com/api/auth, with the body of the request being a RequestedUser object, the API will return a User object
+    * If you authenthicate successfully, you will have something like this:
 ![Auth Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/auth_successful.png?raw=true)
+    * If you fail to authenthicate, you will have something like this:
 ![Auth Incorrect Credentials](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/auth_incorrect_credentials.png?raw=true)
 
 - Update an existing user:
     * Send a POST request to https://he.codingshadows.com/api/update, with the body of the request being a RequestedUser object, the API will return a User object
+    * If the user was updated, you will get the old User object, for all the requests afterwards, you will get the updated User object
 ![Update User](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/update.png?raw=true)
 
 - If you send the wrong request type (GET instead of POST or vice-versa), you will see something like this returend by the API:
