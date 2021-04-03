@@ -37,6 +37,8 @@ If you need further assistance in parsing an Object from an API, please check [t
 
 ## API Reference
 
+- Note: In the screenshots below, in the top part is the request you send, and in the bottom part is the response from the API.
+
 - Register a new user:
     * Send a POST request to https://he.codingshadows.com/api/register, with the body of the request being a RequestedUser object, the API will return a User object
 ![Register Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_successful.png?raw=true)
