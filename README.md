@@ -8,7 +8,7 @@ Hi! This repo is an API for the Hardcore Entrepreneur contest, that demonstrates
 - nothing is encrypted in the database, and this is a huge vulnerability
 - this is just a demo, DO NOT USE THIS IN PRODUCTION / APPS OUTSIDE THE CONTEST due to the fact that the passwords are not being encrypted
 - in the modern days a login system is usually based on auth tokens
-- whi are passwords not encrypted? for the simplicity of the demo / api
+- why are the passwords not encrypted? for the simplicity of the demo / api
 
 ## Others
 
