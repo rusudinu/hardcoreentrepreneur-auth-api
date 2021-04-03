@@ -18,3 +18,4 @@ For other projects / cool stuff, follow me on:
 - [Instagram](https://www.instagram.com/dinuustefan/)
 - [Facebook](https://www.facebook.com/rusudinustefan/)
 - [CodingShadows](https://www.codingshadows.com)
+- [GitHub Link of this repo](https://github.com/rusudinu/hardcoreentrepreneur_auth_api)
