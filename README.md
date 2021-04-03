@@ -39,18 +39,19 @@ If you need further assistance in parsing an Object from an API, please check [t
 
 - Register a new user:
     * Send a POST request to https://he.codingshadows.com/api/register, with the body of the request being a RequestedUser object, the API will return a User object
-    * ![Register Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_successful.png?raw=true)
-    * ![Register User Already Exists](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_already_exists.png?raw=true)
+![Register Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_successful.png?raw=true)
+![Register User Already Exists](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/register_already_exists.png?raw=true)
 
 - Authenticate a user:
     * Send a GET request to https://he.codingshadows.com/api/auth, with the body of the request being a RequestedUser object, the API will return a User object
-    * ![Auth Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/auth_successful.png?raw=true)
-    * ![Auth Incorrect Credentials](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/auth_incorrect_credentials.png?raw=true)
+![Auth Successful](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/auth_successful.png?raw=true)
+![Auth Incorrect Credentials](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/auth_incorrect_credentials.png?raw=true)
 
 - Update an existing user:
     * Send a POST request to https://he.codingshadows.com/api/update, with the body of the request being a RequestedUser object, the API will return a User object
-    * ![Update User](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/update.png?raw=true)
+![Update User](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/update.png?raw=true)
 
+- If you send the wrong request type (GET instead of POST or vice-versa), you will see something like this returend by the API:
 ![Wrong Request Type](https://github.com/rusudinu/hardcoreentrepreneur_auth_api/blob/master/readme_screenshots/wrong_request_type.png?raw=true)
 
 If you need further assistance in sending an Object to an API, please check [this link](https://stackoverflow.com/questions/35390928/how-to-send-json-object-to-the-server-from-my-android-app).
