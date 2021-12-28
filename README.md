@@ -11,6 +11,7 @@ Hi! This repo is an API for the Hardcore Entrepreneur contest, that demonstrates
 - why are passwords not encrypted? for the simplicity of the demo / api
 - the API will be closed after the contest ends (22nd May, 2021) (all the links to the api, will not work)
 - this readme is written for beginners, hence the explanations contain screenshots of postman instead of using a swagger link
+- the project is just a demo for beginners, hence services are not used, the code being written straight in the controllers in order to provide a better understanding of how the API works
 
 ## API Reference
 
