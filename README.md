@@ -11,16 +11,6 @@ Hi! This repo is an API for the Hardcore Entrepreneur contest, that demonstrates
 - why are passwords not encrypted? for the simplicity of the demo / api
 - the API will be closed after the contest ends (22nd May, 2021) (all the links to the api, will not work)
 
-## Others
-
-For other projects / cool stuff, follow me on:
-
-- [GitHub](https://github.com/rusudinu)
-- [Instagram](https://www.instagram.com/dinuustefan/)
-- [Facebook](https://www.facebook.com/rusudinustefan/)
-- [CodingShadows](https://www.codingshadows.com)
-- Please read this documentation [here](https://github.com/rusudinu/hardcoreentrepreneur_auth_api), for a better experience.
-
 ## API Reference
 
 - Register a new user:
@@ -65,3 +55,13 @@ If you need further assistance in parsing an Object from an API, please check [t
 If you need further assistance in sending an Object to an API, please check [this link](https://stackoverflow.com/questions/35390928/how-to-send-json-object-to-the-server-from-my-android-app).
 
 If you need further assistance in parsing an Object from an API, please check [this link](https://stackoverflow.com/questions/5566669/how-to-parse-a-json-object-in-android).
+
+## Others
+
+For other projects / cool stuff, follow me on:
+
+- [GitHub](https://github.com/rusudinu)
+- [Instagram](https://www.instagram.com/dinuustefan/)
+- [Facebook](https://www.facebook.com/rusudinustefan/)
+- [CodingShadows](https://www.codingshadows.com)
+- Please read this documentation [here](https://github.com/rusudinu/hardcoreentrepreneur_auth_api), for a better experience.
