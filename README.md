@@ -10,6 +10,7 @@ Hi! This repo is an API for the Hardcore Entrepreneur contest, that demonstrates
 - in the modern days a login system is usually based on auth tokens
 - why are passwords not encrypted? for the simplicity of the demo / api
 - the API will be closed after the contest ends (22nd May, 2021) (all the links to the api, will not work)
+- this readme is written for beginners, hence the explanations contain screenshots of postman instead of using a swagger link
 
 ## API Reference
 
