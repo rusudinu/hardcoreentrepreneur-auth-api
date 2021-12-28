@@ -1,6 +1,7 @@
 # Unencrypted login system API
 
-Hi! This repo is an API for the Hardcore Entrepreneur contest, that demonstrates the easiest way to create a login system API, using Spring Boot.
+This repo is an API for the Hardcore Entrepreneur contest, that demonstrates the easiest way to create a login system API, using Spring Boot.
+For a real-life auth api please check out [this](https://github.com/rusudinu/jwt-auth) repo. 
 
 ## Please note that:
 
