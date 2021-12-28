@@ -1,8 +1,9 @@
 package com.codingshadows.hardcoreentrepreneur.controller;
 
-import com.codingshadows.hardcoreentrepreneur.UserRepository;
+import com.codingshadows.hardcoreentrepreneur.repository.UserRepository;
 import com.codingshadows.hardcoreentrepreneur.model.RequestedUser;
 import com.codingshadows.hardcoreentrepreneur.model.User;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
@@ -16,13 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.UUID;
 
 @RestController
+@RequiredArgsConstructor
 public class AuthController {
 
-    @Autowired
-    UserRepository userRepository;
+    private final UserRepository userRepository;
 
-    @Autowired
-    MongoTemplate mongoTemplate;
+    private final MongoTemplate mongoTemplate;
 
     @PostMapping("/api/register")
     public User register(@RequestBody RequestedUser requestedUser) {

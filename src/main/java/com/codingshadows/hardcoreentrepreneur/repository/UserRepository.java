@@ -1,4 +1,4 @@
-package com.codingshadows.hardcoreentrepreneur;
+package com.codingshadows.hardcoreentrepreneur.repository;
 
 import com.codingshadows.hardcoreentrepreneur.model.User;
 import org.springframework.data.mongodb.repository.MongoRepository;
